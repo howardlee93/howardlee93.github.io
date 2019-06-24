@@ -1,59 +1,75 @@
 <!doctype html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
     <title>Howard Lee's portfolio</title>
-    <link rel="stylesheet" type="text/css" href="master.css">
+    <link rel="stylesheet" type="text/css" href="styles/master.css">
+    <title>Howard Lee's portfolio</title>
+    <link href="images/avatar.jpeg" rel="shortcut icon" type="image/x-icon" />
+
 
 </head>
 <body>
   <div id="container">
     <header>
       <h1 class="center">Howard Lee</h1>
-       <h3>Hi! I'm Howard!</h3>
-       <div id="date">Date</div>
-    </header>
-    <!--
+       <div id="date"></div>
+    <!-- 
     <nav>
-      	<div id="svg"><a href="/380/">SVG</a></div>
-		    <div id="css"><a href="380/">CSS Animation</a></div>
-		    <div id="version"><a href="380/">  Version Control</a></div>
-		    <div id="javascript">  <a href="380/">JavaScript</a></div>
-		    <div id="canvas"> <a href="380/">HTML Canvas</a></div>
-		    <div id="webgl"> <a href="380/"> WebGL</a></div>
-		    <div id="final"><a href="380/">  Final Project</a></div>
+      	<div class="writing"><ul>Writing</ul></div>
+		    <div class="projects"><ul>Projects</ul></div>
+		    	<ul>
+            <li><a href="twit/index.html">Twitter clone</a></li>
+            <li><a href="weatherTime/index.html">Weather app</a></li>
+            <li>Python projects</li>
+            <li>Ruby/Rails projects</li>
+
+
+
+
+          </ul>
+		    <div class="about"><ul>About</ul></div>
     </nav>
-  -->
+ -->
+</header>
 
     <main>
         
     <article>
       <h2 class="center"> About Me</h2>
       <div id="sidebar">
-        <img src="myAvatar.png" height="75%" width= "75%" alt="avatar">
-        <p>You can make your own avatar <a href="http://mybluerobot.com/create-your-own-avatar/">here</a>. It's really cool.
+        <img src="images/profile.jpg" height="75%" width= "75%" alt="profile">
+       <!-- <p>You can make your own avatar <a href="http://mybluerobot.com/create-your-own-avatar/">here</a>. It's really cool. -->
 
-    </div>
-      <div>
-        <p>Howard was born in Taiwan and raised in California. He is a graduate from NYU who majored in Politics and minored in Web Programming. 
-
-
-        </div>
+      </div>
+      <p>Howard Lee is a software developer based in the San Francisco Bay Area. He is a Bay Area native and a NYU alumnus who studied politics and web development. He did a brief stint at law school at Emory University before deciding his passion laid in combining his background in law and politics to his interest in computer science. In his spare time, he enjoys hiking, yoga, and boba milk tea.</p>
 
     </article>
 
 
     </main>
-    <footer> Howard Lee 2018 </footer>
+    <footer> Howard Lee <p id ='year'></footer>
   </div>
 </body>
-<script type="text/javascript">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript">
 
 var d= new Date();
 var month = d.getMonth() + 1;
 document.getElementById("date").innerHTML = "Today's date:" + month + "/" + d.getDate() + "/" + d.getFullYear();
 
+document.getElementById("year").innerHTML = d.getFullYear();
+  
+
+
+
+
 </script>
+
+
 </html>
 
 
