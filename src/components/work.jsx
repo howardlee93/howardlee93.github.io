@@ -13,9 +13,10 @@ const workStyle={
     	padding:'4%',
     	listStyle: 'none',
     },
-    
+
     hover:{
-    	size:'100%'
+    	fontWeight:'bolder',
+    	fontSize: '25px'
     }
 }
 
@@ -55,7 +56,7 @@ class Work extends React.Component{
 			<li key={key} style={workStyle.li} 
 			onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
 
-			<h4> 
+			<h4 > 
 			{work.title}
 			</h4>
 			
