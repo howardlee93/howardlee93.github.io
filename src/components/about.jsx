@@ -1,7 +1,7 @@
 import React, { Fragment,  useState, useRef } from 'react';
 import resume from "../assets/resume.pdf"
 import prof from '../assets/images/prof.png'
-
+import icon from '../assets/images/icon.png';
 
 function importAll(r) {
     let images = {};
@@ -9,36 +9,7 @@ function importAll(r) {
     return images;
 }
 
-const images = importAll(require.context("../assets/images/icon/", false, /\.(png|svg)/));
-
 const gifs = importAll(require.context("../assets/images/gif/", false, /\.(gif)/));
-
-const icons = [
-
-	"js.png",
-	
-	"rails.png",
-	
-	"post.png",
-	
-	"java.png",
-	
-	"python.png",
-
-	"redux.png",
-	
-	"css3.png",
-
-	"html5.png",
-
-	"logo.svg",
-
-	"ruby.png",
-
-	"swift.svg",
-
-	"aws.png"
-	 ];
 
 
 const gif= {
@@ -64,10 +35,7 @@ export default function About(props){
 		setImage(gif['profile']);
 	}
 
-	const iconDisplay = icons.map((icon, key)=>(
-				 	<img src={images[icon]} key={key} alt="icon" />
-				 	));
-
+	
 	return(
 
 		<Fragment >
@@ -82,7 +50,7 @@ export default function About(props){
 		<b id="cat" onMouseEnter={toggleHover} onMouseLeave={restoreDefault}> software developer </b> 
 		and a <b id="steph" onMouseEnter={toggleHover} onMouseLeave={restoreDefault}>San Francisco Bay Area-native</b>. 
 		After pursuing my undergraduate degree at <b id="wsp" onMouseEnter={toggleHover} onMouseLeave={restoreDefault}>
-		New York University </b>, studying web development and politics, 
+		New York University</b>, studying web development and politics, 
 		I went on to study at the Emory University School of Law. 
 		My passion lies computer science through the lens of law and politics. 
 		In my spare time, I enjoy hiking and doing yoga, and my drink of choice is 
@@ -93,9 +61,9 @@ export default function About(props){
 	
 
 	<h1> Skills and tools:</h1>
-	<p> I enjoy learning and experimenting with new tools and technology, including:</p>
+	<p> I enjoy learning and experimenting with new tools and technology. They include:</p>
 		
-	{iconDisplay}
+		<img  src ={icon} alt='icon' width='90%'></img>
 		</article>
 
 	</section>

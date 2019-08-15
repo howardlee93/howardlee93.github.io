@@ -7,17 +7,13 @@ const workStyle={
     	display:'flex',
     	flexWrap: 'wrap',
     	flexDirection:'row',
+    	justifyContent: 'space-between'
     },
     
     li:{
-    	padding:'4%',
     	listStyle: 'none',
     },
-
-    hover:{
-    	fontWeight:'bolder',
-    	fontSize: '25px'
-    }
+   
 }
 
 
@@ -35,7 +31,7 @@ class Work extends React.Component{
 		super(props);
 		this.state = {
 			hover: false,
-			display: '',
+			opacity: '0',
 		};
 
 	}
@@ -45,30 +41,54 @@ class Work extends React.Component{
 			hover: !this.state.hover
 		});
 		
-
 		console.log('youre hovering!!');
 
 		if(this.state.hover){
-			//overlay
+			this.setState({
+				opacity: '0'
+			});
 		}else{
-			//normal
+			this.setState({
+				opacity: '1',
+			})
 		};
-
 	}
 
 
 	render(){
 
-		const projectDisplay = works.map((work, key)=>(
-			<li key={key} style={workStyle.li} 
-			onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
 
+		const hovered ={
+    		text:{
+    			opacity: this.state.opacity,
+    		    textAlign:' center',
+    		    transition: '.5s ease',
+    			position: 'absolute',
+    		  	transform: 'translate(-50%, -50%)',
+    		  	background:'#D99484',
+    		  	height:'10%',
+    		  	width:'10%',
+    		  	},
+
+    		 image:{
+    		 	opacity:'0'
+
+    		 }
+    	}
+
+
+		
+		const projectDisplay = works.map((work, key)=>(
+			<li key={key} style={workStyle.li}>
 			<h4 > 
 			{work.title}
 			</h4>
 			
 			<a href={work.url}>
-			<img src={images[work.image]} alt="work"  ></img>
+				<img src={images[work.image]} alt="work" 
+				onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
+				</img>
+				<p style={hovered.text}>Link</p>
 			</a>
 
 			<a href={work.github}><p>Github</p></a>
