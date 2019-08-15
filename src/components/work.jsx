@@ -35,6 +35,7 @@ class Work extends React.Component{
 		super(props);
 		this.state = {
 			hover: false,
+			display: '',
 		};
 
 	}
@@ -46,6 +47,12 @@ class Work extends React.Component{
 		
 
 		console.log('youre hovering!!');
+
+		if(this.state.hover){
+			//overlay
+		}else{
+			//normal
+		};
 
 	}
 
@@ -63,9 +70,11 @@ class Work extends React.Component{
 			<a href={work.url}>
 			<img src={images[work.image]} alt="work"  ></img>
 			</a>
+
 			<a href={work.github}><p>Github</p></a>
 			<p>{work.description}</p>
 			</li>
+
 			));
 
 

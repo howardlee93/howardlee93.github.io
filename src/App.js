@@ -52,8 +52,23 @@ class App extends React.Component{
     console.log(this.state.top + "is top");
     console.log(this.state.scroll + 'is scroll');
 
-
   }
+
+  // resizeHeaderOnScroll(){
+  //     const distanceY = window.pageYOffset || document.documentElement.scrollTop,
+  //     shrinkOn = 200,
+  //     headerEl = document.getElementById("header");
+
+  //   if (distanceY > shrinkOn) {
+  //     headerEl.classList.add("smaller");
+  //   } else {
+  //     headerEl.classList.remove("smaller");
+  //   }
+  // }
+
+  // }
+
+
 
   componentDidMount(){
     const header = document.getElementById("header");

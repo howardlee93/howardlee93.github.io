@@ -66,7 +66,7 @@ export default function Contact(props){
 
 		<div style={labelStyle.body}>
 
-		<h1> Find out more about me at</h1>
+		<h1> Learn more about me:</h1>
 			<p> I enjoy meeting new people! If you find yourself in the SF Bay Area and want to meet up or you just want to chat virtually, send me an
 			email or follow me at the bellow links!</p>
 
