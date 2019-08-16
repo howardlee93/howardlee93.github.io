@@ -50,8 +50,8 @@ export default function About(props){
 		<b id="cat" onMouseEnter={toggleHover} onMouseLeave={restoreDefault}> software developer </b> 
 		and a <b id="steph" onMouseEnter={toggleHover} onMouseLeave={restoreDefault}>San Francisco Bay Area-native</b>. 
 		After pursuing my undergraduate degree at <b id="wsp" onMouseEnter={toggleHover} onMouseLeave={restoreDefault}>
-		New York University</b>, studying web development and politics, 
-		I went on to study at the Emory University School of Law. 
+		New York University</b>, studying web development and politics,
+		I went on to study at the Emory University School of Law. In addition, I have a computer programming certificate from UCSC Santa Clara Extension.
 		My passion lies computer science through the lens of law and politics. 
 		In my spare time, I enjoy hiking and doing yoga, and my drink of choice is 
 		<b id="boba" onMouseEnter={toggleHover} onMouseLeave={restoreDefault}> a classic milk tea with pearls, no ice and 30% sugar</b>.

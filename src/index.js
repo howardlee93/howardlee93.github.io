@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import {
-	BrowserRouter,
+	HashRouter,
 	
 } from 'react-router-dom';
 
@@ -11,9 +11,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 const routes = (
-<BrowserRouter>
+<HashRouter>
 	<App/>   
-  </BrowserRouter>
+  </HashRouter>
 );
 
 ReactDOM.render(routes, document.getElementById('root'));
