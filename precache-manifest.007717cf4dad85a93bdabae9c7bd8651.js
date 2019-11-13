@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a3950d027ad9f5154c27a314ca8b9b90",
+    "revision": "a449047eadae5801c42f09675e0b2c2a",
     "url": "/index.html"
   },
   {
-    "revision": "e451cc46f4346302a896",
+    "revision": "33e884e6be90026b6039",
     "url": "/static/css/main.3fe540b6.chunk.css"
   },
   {
-    "revision": "7715c0fb7da1a0ecbbea",
-    "url": "/static/js/2.0968d395.chunk.js"
+    "revision": "8b35b37670248913b165",
+    "url": "/static/js/2.3b1cff39.chunk.js"
   },
   {
-    "revision": "e451cc46f4346302a896",
-    "url": "/static/js/main.484722ee.chunk.js"
+    "revision": "33e884e6be90026b6039",
+    "url": "/static/js/main.07c173f9.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -42,6 +42,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "18fdc4e4f3844867b506954a73c92741",
     "url": "/static/media/css.18fdc4e4.png"
+  },
+  {
+    "revision": "98da7042fc230fb292c7aeb8aba71e97",
+    "url": "/static/media/foodiesearch.98da7042.png"
+  },
+  {
+    "revision": "19e350804aa671df3b43a9b85d10e9f3",
+    "url": "/static/media/gifyt.19e35080.png"
   },
   {
     "revision": "3194c8b1ae5aaa22573332269557dcda",
