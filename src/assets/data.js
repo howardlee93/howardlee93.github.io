@@ -45,5 +45,16 @@ export const works =[
 	image: 'svg.png'
 
 
-}
+},
+
+{
+	title: "GIF viewer",
+	description: "Practice with React and AJAX requests with the GIFY API",
+	url: 'https://howardlee93.github.io/gifyt/',
+	github: 'https://github.com/howardlee93/gifyt',
+	image: 'gifyt.png'
+
+
+},
+
 ]

@@ -16,7 +16,6 @@ const workStyle={
    
 }
 
-
 function importAll(r) {
   let images = {};
     r.keys().forEach((item, index) => { images[item.replace('./', '')] = r(item); });
@@ -25,24 +24,11 @@ function importAll(r) {
 
 const images = importAll(require.context("../assets/images/project/", false, /\.(png|svg|jpe?g)/));
 
-class Work extends React.Component{
-
-	constructor(props){
-		super(props);
-	
-	}
-
-	
-
-	render(){
-
-
-		
+function Work(){
 
 		
 		const projectDisplay = works.map((work, key)=>(
-			<li key={key} style={workStyle.li}
-				onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
+			<li key={key} style={workStyle.li}>
 			<h4 > 
 			{work.title}
 			</h4>
@@ -57,7 +43,6 @@ class Work extends React.Component{
 
 			));
 
-
 		return(
 			<div style={{textAlign:'center', width:'75%'}}>
 				<h1> Some samples of my work </h1>
@@ -69,7 +54,6 @@ class Work extends React.Component{
 			</div>
 
 			)
-	}
 
 }
 
