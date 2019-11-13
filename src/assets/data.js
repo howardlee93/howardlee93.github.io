@@ -19,15 +19,14 @@ export const works =[
 	url: 'http://magnifiy.herokuapp.com',
 	github: 'https://github.com/howardlee93/angelhacksSV',
 	image: 'magnifiy.png'
-
 },
+
 {
 	title: "Asteroid",
 	description: "Vanilla JS in browser game",
 	url: 'https://wonderful-pasteur-a4f3af.netlify.com/',
 	github: 'https://github.com/howardlee93/asteroids',
 	image: 'asteroid.png'
-
 },
 
 {
@@ -37,13 +36,13 @@ export const works =[
 	github: 'https://howardlee93.github.io/css_projects/',
 	image: 'css.png'
 },
+
 {
 	title: "SVG practice",
 	description: "Practice with SVG and CSS animation for Drawing on the Web",
 	url: 'https://howardlee93.github.io/svg_project/',
 	github: 'https://github.com/howardlee93/svg_project',
 	image: 'svg.png'
-
 
 },
 
@@ -54,7 +53,20 @@ export const works =[
 	github: 'https://github.com/howardlee93/gifyt',
 	image: 'gifyt.png'
 
+},
+
+{
+	title: "Yelp searcher",
+	description: "Yelp viewer created with React and Axios using Yelp Fusion API ",
+	url: 'https://festive-jennings-6a8d0a.netlify.com/',
+	github: 'https://github.com/howardlee93/foodiesearch/',
+	image: 'foodiesearch.png'
+
 
 },
+
+
+
+
 
 ]
