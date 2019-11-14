@@ -69,7 +69,6 @@ class App extends React.Component{
   // }
 
 
-
   componentDidMount(){
     const header = document.getElementById("header");
     this.setState({
@@ -103,9 +102,8 @@ const notSticky ={
 	return(
 
 		<div>
-
         
-          <div id ='header' style ={this.state.scroll > this.state.top ? sticky : notSticky}>
+          <div id ='header' style ={notSticky}>
            <h1 style={header.head}> HOWARD LEE</h1>
            <h6 style={header.sub}>software engineer in the bay area</h6>
 
