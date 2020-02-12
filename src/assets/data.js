@@ -15,11 +15,11 @@ export const works =[
 },
 
 {
-	title: "Asteroid",
-	description: "Vanilla JS in browser game",
-	url: 'https://wonderful-pasteur-a4f3af.netlify.com/',
-	github: 'https://github.com/howardlee93/asteroids',
-	image: 'asteroid.png'
+	title: "TableOpen",
+	description: "OpenTable tribute built with Ruby on Rails and React/Redux",
+	url: 'https://table-open.herokuapp.com/',
+	github: 'https://github.com/howardlee93/tableopen',
+	image: 'tableopen.png'
 },
 
 
