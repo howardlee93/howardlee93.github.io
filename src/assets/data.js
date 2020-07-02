@@ -1,8 +1,5 @@
 //data.js
 
-
-
-
 export const works =[
 
 {
@@ -22,15 +19,23 @@ export const works =[
 	image: 'tableopen.png'
 },
 
-
 {
-	title: "GIF viewer",
-	description: "Practice with React and AJAX requests with the GIFY API",
-	url: 'https://howardlee93.github.io/gifyt/',
-	github: 'https://github.com/howardlee93/gifyt',
-	image: 'gifyt.png'
+	title: "CoronaVirus tracker",
+	description: "CoronaVirus tracker with React/Redux and data visualized with D3.js",
+	url: 'https://howardlee93.github.io/coronatracker',
+	github: 'https://github.com/howardlee93/coronatracker',
+	image: 'coronatracker.png'
 
 },
+
+// {
+// 	title: "GIF viewer",
+// 	description: "Practice with React and AJAX requests with the GIFY API",
+// 	url: 'https://howardlee93.github.io/gifyt/',
+// 	github: 'https://github.com/howardlee93/gifyt',
+// 	image: 'gifyt.png'
+
+// },
 
 {
 	title: "Yelp searcher",
