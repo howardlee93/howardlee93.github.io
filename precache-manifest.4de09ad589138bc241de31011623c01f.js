@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "070483ed9d55e1db0edf0724e4420326",
+    "revision": "8a7c034434d4b02270deadc0b3190ae7",
     "url": "/index.html"
   },
   {
-    "revision": "5a9711011bb6df89a60f",
+    "revision": "fa340fc7b78483b54142",
     "url": "/static/css/main.877f3063.chunk.css"
   },
   {
-    "revision": "79e6a6346e2c3d3177ff",
-    "url": "/static/js/2.33a9f8d0.chunk.js"
+    "revision": "b0be02ca6aa30f6314ac",
+    "url": "/static/js/2.651a1de1.chunk.js"
   },
   {
-    "revision": "5a9711011bb6df89a60f",
-    "url": "/static/js/main.fa7c0725.chunk.js"
+    "revision": "fa340fc7b78483b54142",
+    "url": "/static/js/main.094c0106.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -40,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cat.5800c8fd.gif"
   },
   {
+    "revision": "52a7e89b71cc903d0dd4210f964741e6",
+    "url": "/static/media/coronatracker.52a7e89b.png"
+  },
+  {
     "revision": "18fdc4e4f3844867b506954a73c92741",
     "url": "/static/media/css.18fdc4e4.png"
   },
@@ -64,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/prof.12a66465.png"
   },
   {
-    "revision": "e29825f19fbba455ba136e532c45868a",
-    "url": "/static/media/resume.e29825f1.pdf"
+    "revision": "fa3db9770d13eaedd81045e7a17ec1a1",
+    "url": "/static/media/resume.fa3db977.pdf"
   },
   {
     "revision": "6ddf14ee7c9304908fbf66e6c14c8c80",
