@@ -1,5 +1,4 @@
 import React, { Fragment,  useState } from 'react';
-import resume from "../assets/resume.pdf"
 import prof from '../assets/images/prof.png'
 import icon from '../assets/images/icon.png';
 
