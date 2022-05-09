@@ -57,7 +57,6 @@ export default function About(props){
 		<b id="boba" onMouseEnter={toggleHover} onMouseLeave={restoreDefault}> a classic milk tea with pearls, no ice and 30% sugar</b>.
 
 	</p>
-	<p><a href= {resume} >Check out my resume!</a></p>
 	
 
 	<h1> Skills and tools:</h1>
