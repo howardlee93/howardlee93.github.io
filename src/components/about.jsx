@@ -1,6 +1,6 @@
 import React, { Fragment,  useState } from 'react';
 import prof from '../assets/images/prof.png'
-import icon from '../assets/images/icon.png';
+import Contact from './contact';
 
 function importAll(r) {
     let images = {};
@@ -40,8 +40,7 @@ export default function About(props){
 		<Fragment >
 		<img  src ={image} alt='profile' height='40%' width='25%' style={{padding:'15px'}}></img>
 
-		<section style={{width:'40%', height:'70%', padding:'10px',  textAlign: 'justify',
-  textJustify: 'inter-word'}}>
+		<section style={{width:'40%', height:'70%', padding:'10px',  textAlign: 'justify', textJustify: 'inter-word'}}>
 
 		<article>
 		<h1> Hi, I'm Howard!</h1>
@@ -56,13 +55,12 @@ export default function About(props){
 		<b id="boba" onMouseEnter={toggleHover} onMouseLeave={restoreDefault}> a classic milk tea with pearls, no ice and 30% sugar</b>.
 
 	</p>
-	
 
-	<h1> Skills and tools:</h1>
-	<p> I enjoy learning and experimenting with new tools and technology. They include:</p>
-		
-		<img  src ={icon} alt='icon' width='90%'></img>
-		</article>
+	<h1> Learn more about me:</h1>
+		<p> I enjoy meeting new people! If you find yourself in the SF Bay Area and want to meet up or you just want to chat virtually, send me an
+		email or follow me at the bellow links!</p>
+		<Contact/>
+	</article>
 
 	</section>
 	</Fragment>

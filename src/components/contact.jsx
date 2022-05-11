@@ -2,7 +2,7 @@ import React from 'react';
 import github from '../assets/images/github.png'
 import linkedin from '../assets/images/linkedin.png'
 import email from '../assets/images/email.jpeg'
-
+import medium from '../assets/images/medium.png'
 
 const labelStyle ={
 
@@ -48,6 +48,11 @@ const contacts = [
 	text:'email',
 	caption: 'Email'
 	},
+	{url:'https://howardlee93.medium.com/',
+	img: medium,
+	text:'medium',
+	caption:'Medium'
+	}
 
 	]
 
@@ -65,11 +70,6 @@ export default function Contact(props){
 	return(
 
 		<div style={labelStyle.body}>
-
-		<h1> Learn more about me:</h1>
-			<p> I enjoy meeting new people! If you find yourself in the SF Bay Area and want to meet up or you just want to chat virtually, send me an
-			email or follow me at the bellow links!</p>
-
 			<ul style={labelStyle.list}>
 			{contactList}
 			</ul>

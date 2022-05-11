@@ -109,16 +109,14 @@ const notSticky ={
 
             <div className="navBar">
           		<NavLink to='/' className="link">About </NavLink>
-          		<NavLink to='/Work' className="link">Work</NavLink>
-          		<NavLink to='/Contact' className="link">Contact</NavLink>
+          		{/* <NavLink to='/Work' className="link">Work</NavLink> */}
             </div>
           </div>
               
           	 <div className="tabs" style={{display:'flex', justifyContent:'center'}}>
           	 	 <Switch>
           	 	 	<Route exact path='/' component ={About}/>
-          	 	 	<Route path='/Work' component={Work}/>
-          	 	 	<Route path='/Contact'  component ={Contact}/>
+          	 	 	{/* <Route path='/Work' component={Work}/> */}
           	 	</Switch>
 
           	 </div>
